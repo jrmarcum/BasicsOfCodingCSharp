@@ -3,6 +3,13 @@
 What this text is and what it is not: This text is intended to introduce the reader to the basics of the C# programming language in the sense that they will be able to write minimal types of programs and run the code. It is not intended to go into advanced topics like concurrency and use of pointers, data structures, object oriented programming, testing and debugging techniques and other software engineering principals.
 
 The programs are intended to be run in the terminal as that is common to most operating systems. Linux and Mac come preinstalled with a terminal. Windows may or may not have it pre-installed. "Windows Terminal" can be installed from the Microsoft store. Just do a search for it and install it.
+## Installation and Setup of C#
+To setup C# for use, navigate to the [dotnet.microsoft.com](https://dotnet.microsoft.com/en-us/download) website, select download sdk for your operating system. Install and follow the directions on how to perform further settings for use. If the language has been installed properly you will be able to type the following command in the terminal command line and receive the response shown:
+```
+$ dotnet --version
+9.0.100
+(Note: the version shown here varies with your installed version)
+```
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 ## Comments
